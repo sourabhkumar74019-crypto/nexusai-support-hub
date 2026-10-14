@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexusAI Support & Central Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .glass-card {
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card-hover:hover {
+      border-color: rgba(99, 102, 241, 0.4);
+      box-shadow: 0 0 25px rgba(99, 102, 241, 0.15);
+    }
+    .neon-glow {
+      box-shadow: 0 0 50px -10px rgba(79, 70, 229, 0.3);
+    }
+  </style>
+</head>
+<body class="bg-[#07090e] text-slate-100 min-h-screen relative overflow-x-hidden selection:bg-indigo-500 selection:text-white">
+
+  <!-- Background Animated Mesh Light Orbs -->
+  <div class="fixed top-[-10%] left-[-10%] w-[500px] h-[500px] bg-indigo-600/20 rounded-full blur-[140px] pointer-events-none"></div>
+  <div class="fixed bottom-[-10%] right-[-10%] w-[600px] h-[600px] bg-cyan-600/15 rounded-full blur-[160px] pointer-events-none"></div>
+
+  <!-- Header / Navbar -->
+  <header class="border-b border-white/5 bg-[#07090e]/70 backdrop-blur-xl sticky top-0 z-50 px-6 py-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-cyan-400 p-[1px] shadow-lg shadow-indigo-500/20">
+          <div class="w-full h-full bg-[#07090e] rounded-[15px] flex items-center justify-center font-extrabold text-indigo-400 text-xl">N</div>
+        </div>
+        <div>
+          <span class="text-lg font-black tracking-wider bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">NEXUS<span class="text-indigo-500">AI</span></span>
+          <span class="block text-[10px] font-semibold tracking-widest text-indigo-400 uppercase">Support Hub</span>
+        </div>
+      </div>
+      <a href="#ticket" class="relative group overflow-hidden rounded-xl p-[1px] font-semibold text-xs">
+        <span class="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-400 transition-all duration-300 group-hover:opacity-100 opacity-70"></span>
+        <span class="relative block px-5 py-2.5 rounded-[11px] bg-[#0c1017] transition-all group-hover:bg-transparent text-white font-bold">Submit Ticket →</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-4xl mx-auto text-center pt-16 pb-12 px-4 relative z-10">
+    <div class="inline-flex items-center space-x-2 bg-indigo-950/80 border border-indigo-500/30 px-4 py-1.5 rounded-full text-xs font-semibold text-indigo-300 mb-6 shadow-inner">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+      <span>Live Support Desk & Multi-SaaS Gateway</span>
+    </div>
+    <h1 class="text-4xl md:text-6xl font-black tracking-tight text-white mb-4 leading-tight">
+      How can we empower your <br class="hidden md:block"/>
+      <span class="bg-gradient-to-r from-indigo-400 via-cyan-300 to-emerald-400 bg-clip-text text-transparent">AI Experience today?</span>
+    </h1>
+    <p class="text-slate-400 text-sm md:text-base max-w-xl mx-auto font-normal leading-relaxed">
+      Official resolution center for NexusAI Pro, B2B SaaS Ecosystems, and Custom Enterprise Deployments by <strong class="text-slate-200">Shaurabh Kumar</strong>.
+    </p>
+  </section>
+
+  <main class="max-w-5xl mx-auto px-4 space-y-10 mb-20 relative z-10">
+
+    <!-- Section 1: Submit Support Ticket (FormSubmit Integration) -->
+    <section id="ticket" class="glass-card glass-card-hover rounded-3xl p-6 md:p-10 transition-all duration-300 neon-glow">
+      <div class="flex items-center space-x-3 mb-6">
+        <div class="w-8 h-8 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400">⚡</div>
+        <div>
+          <h2 class="text-xl font-bold text-white">Create Support Request</h2>
+          <p class="text-slate-400 text-xs">Direct priority inbox to Founder & Core Tech Team</p>
+        </div>
+      </div>
+      
+      <form action="https://formsubmit.co/sourabhkumar74019@gmail.com" method="POST" class="space-y-5">
+        <!-- FormSubmit Hidden Configurations -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Support Ticket - NexusAI Support Hub">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Your Full Name</label>
+            <input type="text" name="name" required placeholder="Shaurabh Kumar" class="w-full bg-[#0c1017] border border-white/10 rounded-xl p-3.5 text-sm text-slate-100 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all focus:outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Your Email Address</label>
+            <input type="email" name="email" required placeholder="sourabhkumar74019@gmail.com" class="w-full bg-[#0c1017] border border-white/10 rounded-xl p-3.5 text-sm text-slate-100 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all focus:outline-none">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Product Category</label>
+          <select name="product" class="w-full bg-[#0c1017] border border-white/10 rounded-xl p-3.5 text-sm text-slate-100 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all focus:outline-none">
+            <option value="NexusAI Pro Suite">NexusAI Pro (50-in-1 Suite)</option>
+            <option value="ColdAI Pro (B2B Lead Gen)">ColdAI Pro (B2B Lead Gen)</option>
+            <option value="Billing & Payments">Billing & Custom Invoices</option>
+            <option value="Custom Micro-SaaS Inquiry">Custom Micro-SaaS Acquisition</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Detailed Issue / Inquiry</label>
+          <textarea name="message" rows="4" required placeholder="Type your query or technical issue here..." class="w-full bg-[#0c1017] border border-white/10 rounded-xl p-3.5 text-sm text-slate-100 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all focus:outline-none"></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-gradient-to-r from-indigo-600 via-indigo-500 to-cyan-500 hover:from-indigo-500 hover:to-cyan-400 text-white font-extrabold py-4 rounded-xl transition-all shadow-lg shadow-indigo-500/25 tracking-wide text-sm">
+          🚀 SUBMIT HIGH-PRIORITY TICKET
+        </button>
+      </form>
+    </section>
+
+    <!-- Section 2: Products Ecosystem -->
+    <section class="glass-card rounded-3xl p-6 md:p-10">
+      <h2 class="text-xl font-bold text-white mb-1">🌐 AI Ecosystem & Pricing Directory</h2>
+      <p class="text-slate-400 text-xs mb-8">Active tools and upcoming Micro-SaaS deployments</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Live Product Card -->
+        <div class="bg-[#0c1017]/80 border border-indigo-500/30 p-6 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-indigo-500/10 rounded-full blur-xl group-hover:bg-indigo-500/20 transition-all"></div>
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h3 class="font-extrabold text-white text-lg">NexusAI Pro</h3>
+              <span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider">LIVE</span>
+            </div>
+            <p class="text-slate-400 text-xs leading-relaxed mb-6">Complete 50+ AI productivity tools suite for content, coding, ads, and copywriting.</p>
+            <div class="text-2xl font-black text-white mb-6">$999 <span class="text-slate-500 text-xs font-normal">/ Lifetime Access</span></div>
+          </div>
+          <a href="https://microai-50-tools.vercel.app" target="_blank" class="block text-center bg-indigo-600/20 hover:bg-indigo-600 text-indigo-300 hover:text-white border border-indigo-500/40 text-xs font-bold py-3 rounded-xl transition-all">Launch Application ↗</a>
+        </div>
+
+        <!-- Future Product Card -->
+        <div class="bg-[#0c1017]/50 border border-white/5 p-6 rounded-2xl flex flex-col justify-between relative opacity-70">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h3 class="font-extrabold text-white text-lg">ColdAI Pro</h3>
+              <span class="bg-amber-500/10 text-amber-400 border border-amber-500/30 text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider">IN DEV</span>
+            </div>
+            <p class="text-slate-400 text-xs leading-relaxed mb-6">AI-driven B2B cold email personalization engine for high response rate outreach.</p>
+            <div class="text-2xl font-black text-white mb-6">$47 <span class="text-slate-500 text-xs font-normal">/ One-time</span></div>
+          </div>
+          <span class="block text-center bg-white/5 text-slate-500 text-xs font-bold py-3 rounded-xl border border-white/5 cursor-not-allowed">Deployment Pending</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Payments & Bank Wire -->
+    <section class="glass-card rounded-3xl p-6 md:p-10 space-y-8">
+      <div>
+        <h2 class="text-xl font-bold text-white mb-1">💳 Verified Payment Channels</h2>
+        <p class="text-slate-400 text-xs">Official transaction routes for client licenses and acquisition transfers</p>
+      </div>
+
+      <!-- Online Status -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-[#0c1017] border border-white/5 p-4 rounded-2xl flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <span class="text-xl">🅿️</span>
+            <div>
+              <p class="text-xs font-bold text-slate-200">PayPal Checkout</p>
+              <p class="text-[10px] text-amber-400 font-medium">Gateway In Maintenance</p>
+            </div>
+          </div>
+          <span class="bg-white/5 text-slate-400 text-[10px] font-bold px-2.5 py-1 rounded-lg">Offline</span>
+        </div>
+
+        <div class="bg-[#0c1017] border border-white/5 p-4 rounded-2xl flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <span class="text-xl">⚡</span>
+            <div>
+              <p class="text-xs font-bold text-slate-200">Razorpay (Cards / UPI)</p>
+              <p class="text-[10px] text-amber-400 font-medium">Gateway In Maintenance</p>
+            </div>
+          </div>
+          <span class="bg-white/5 text-slate-400 text-[10px] font-bold px-2.5 py-1 rounded-lg">Offline</span>
+        </div>
+      </div>
+
+      <!-- Verified Bank Wire -->
+      <div class="bg-[#0c1017] border border-indigo-500/30 p-6 rounded-2xl relative overflow-hidden">
+        <div class="flex items-center space-x-3 mb-4">
+          <div class="w-8 h-8 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">🏛️</div>
+          <h3 class="font-bold text-white text-sm">Direct Bank Wire / Remittance (Union Bank of India)</h3>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-slate-300 font-mono bg-[#07090e] p-5 rounded-xl border border-white/5">
+          <p><span class="text-slate-500">ACCOUNT NAME:</span> <strong class="text-white">SHAURABH KUMAR</strong></p>
+          <p><span class="text-slate-500">BANK:</span> <strong class="text-white">Union Bank of India</strong></p>
+          <p><span class="text-slate-500">ACCOUNT NO:</span> <strong class="text-indigo-400">512102120005353</strong></p>
+          <p><span class="text-slate-500">IFSC CODE:</span> <strong class="text-indigo-400">UBIN0551210</strong></p>
+          <p><span class="text-slate-500">BRANCH:</span> <strong class="text-white">SIWAN</strong></p>
+          <p><span class="text-slate-500">SUPPORT TEL:</span> <strong class="text-white">+91 83768 91847</strong></p>
+          <p><span class="text-slate-500">REGISTERED TEL:</span> <strong class="text-white">+91 73198 91847</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Contact Footer Card -->
+    <section class="glass-card rounded-3xl p-6 md:p-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+      <div class="space-y-1 text-xs">
+        <h2 class="text-base font-extrabold text-white">Founder Contact & Compliance</h2>
+        <p class="text-slate-400">Shaurabh Kumar • Gopalganj, Bihar - 841407</p>
+        <p class="text-indigo-400 font-medium">sourabhkumar74019@gmail.com</p>
+      </div>
+      <a href="mailto:sourabhkumar74019@gmail.com" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-6 py-3 rounded-xl border border-white/10 transition-all">
+        Direct Founder Email ✉️
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-white/5 py-8 text-center text-xs text-slate-600 relative z-10">
+    <p>&copy; 2026 NexusAI Support Hub. All Rights Reserved. Managed by Shaurabh Kumar.</p>
+  </footer>
+
+</body>
+</html>
